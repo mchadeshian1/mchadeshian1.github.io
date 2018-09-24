@@ -1,0 +1,10 @@
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.name {
+	font-size: 25px;
+	line-height: 50px;
+	float: left;
+}
