@@ -1,4 +1,6 @@
-
+/*
+General Style Sheet
+*/
 body {
 	font-family: sans-serif;
 	padding: 0;
@@ -9,17 +11,18 @@ div {
 	display: flex;
 }
 
-#name {
+#home-name {
 	font-size: 35px;
 	line-height: 50px;
 	align-self: center;
 	color: #424242;
 	padding-bottom: 30px;
-	display: flex;
 }
 
 .header-wrap {
 	padding: 30px;
+	margin-left: 10%;
+	margin-right: 10%;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	border-bottom: 1.5px solid #36454F;
@@ -27,6 +30,11 @@ div {
 
 .header-wrap {
 	flex-direction: column;
+}
+
+.container {
+	padding-left: 20%;
+	padding-right: 20%;
 }
 
 #nav-header {
@@ -38,7 +46,6 @@ div {
 	font-size: 20px;
 	line-height: 30px;
 	padding: 50px;
-	align-self: center;
 	color: #424242;
 	flex-direction: row;
 }
@@ -48,4 +55,55 @@ div {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	border-top: 1.5px solid #36454F;
+	margin-left: 10%;
+	margin-right: 10%;
 }
+
+.footer-wrap {
+	flex-direction: row;
+	justify-content: center;
+}
+
+
+#cover-photo {
+	width: 90%;
+	height: 90%;
+	position: relative;
+	padding: 20px;
+	padding-bottom: 15px;
+	justify-content: center;
+}
+
+.footer-icon img{
+	width: 35px;
+	height: 35px;
+}
+
+.footer-icon {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/*
+Bio and Resume Styling
+*/
+
+
+#name-bio {
+	font-size: 20px;
+	line-height: 30px;
+	padding:;
+	color: #424242;
+	text-align: left;
+}
+
+#nav-header-bio {
+	text-align: right;
+}
+
+
+
+
+
+
+
