@@ -21,8 +21,8 @@ div {
 
 .header-wrap {
 	padding: 30px;
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 20%;
+	margin-right: 20%;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	border-bottom: 1.5px solid #36454F;
@@ -55,8 +55,8 @@ div {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	border-top: 1.5px solid #36454F;
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 
 .footer-wrap {
@@ -71,7 +71,7 @@ div {
 	position: relative;
 	padding: 20px;
 	padding-bottom: 15px;
-	justify-content: center;
+	left: 2%; 
 }
 
 .footer-icon img{
@@ -87,18 +87,18 @@ div {
 /*
 Bio and Resume Styling
 */
-
-
-#name-bio {
-	font-size: 20px;
-	line-height: 30px;
-	padding:;
-	color: #424242;
-	text-align: left;
+.bio-text {
+	display: inline-block;
+	margin-left: 20%;
+	margin-right: 20%;
+	font-size: 16px;
+	color: black;
 }
 
-#nav-header-bio {
-	text-align: right;
+.section-header {
+	margin-left: 20%;
+	margin-right: 20%;
+	color: #424242;
 }
 
 
